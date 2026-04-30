@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  FoodDeliveryApp
-//
-//  Created by Qd on 30.04.2026.
-//
-
 import UIKit
 
 @main
