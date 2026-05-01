@@ -8,7 +8,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windiwScene = (scene as? UIWindowScene) else { return }
         
         self.window = UIWindow(windowScene: windiwScene)
-        self.window?.rootViewController = UINavigationController()
+        let navigationController = UINavigationController(rootViewController: ViewController())
+        self.window?.rootViewController = navigationController
         self.window?.makeKeyAndVisible()
     }
 
