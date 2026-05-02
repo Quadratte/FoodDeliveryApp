@@ -11,6 +11,9 @@
 		702AA1332FA3E992000C11F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AA1322FA3E992000C11F7 /* SceneDelegate.swift */; };
 		702AA1352FA3E992000C11F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AA1342FA3E992000C11F7 /* ViewController.swift */; };
 		702AA13A2FA3E994000C11F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702AA1392FA3E994000C11F7 /* Assets.xcassets */; };
+		703737B02FA51F6800FAC8CD /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703737AF2FA51F6800FAC8CD /* UIFont+Extension.swift */; };
+		703737B32FA52F2F00FAC8CD /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703737B22FA52F2F00FAC8CD /* UIColor+Extension.swift */; };
+		70D45F152FA699F500A489B1 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D45F142FA699F500A489B1 /* AppColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,10 @@
 		702AA1392FA3E994000C11F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		702AA13E2FA3E994000C11F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		702AA1462FA3EFB4000C11F7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		703737AF2FA51F6800FAC8CD /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		703737B12FA51FDF00FAC8CD /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../../../RESOURCES/FoodDeliveryApp/Roboto/static/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		703737B22FA52F2F00FAC8CD /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		70D45F142FA699F500A489B1 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,7 @@
 		702AA12F2FA3E992000C11F7 /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				703737A92FA51D5500FAC8CD /* Resources */,
 				702AA1302FA3E992000C11F7 /* AppDelegate.swift */,
 				702AA1322FA3E992000C11F7 /* SceneDelegate.swift */,
 				702AA1342FA3E992000C11F7 /* ViewController.swift */,
@@ -61,6 +69,41 @@
 				702AA13E2FA3E994000C11F7 /* Info.plist */,
 			);
 			path = FoodDeliveryApp;
+			sourceTree = "<group>";
+		};
+		703737A92FA51D5500FAC8CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				703737AE2FA51F4200FAC8CD /* Extensions */,
+				703737AA2FA51D7500FAC8CD /* Fonts */,
+				70D45F142FA699F500A489B1 /* AppColors.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		703737AA2FA51D7500FAC8CD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				703737AD2FA51DF400FAC8CD /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		703737AD2FA51DF400FAC8CD /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				703737B12FA51FDF00FAC8CD /* Roboto-Regular.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		703737AE2FA51F4200FAC8CD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				703737AF2FA51F6800FAC8CD /* UIFont+Extension.swift */,
+				703737B22FA52F2F00FAC8CD /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +177,10 @@
 			files = (
 				702AA1352FA3E992000C11F7 /* ViewController.swift in Sources */,
 				702AA1312FA3E992000C11F7 /* AppDelegate.swift in Sources */,
+				703737B02FA51F6800FAC8CD /* UIFont+Extension.swift in Sources */,
+				70D45F152FA699F500A489B1 /* AppColors.swift in Sources */,
 				702AA1332FA3E992000C11F7 /* SceneDelegate.swift in Sources */,
+				703737B32FA52F2F00FAC8CD /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
