@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70199FF82FA937F3005AC705 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70199FF72FA937F3005AC705 /* Coordinator.swift */; };
 		702AA1312FA3E992000C11F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AA1302FA3E992000C11F7 /* AppDelegate.swift */; };
 		702AA1332FA3E992000C11F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AA1322FA3E992000C11F7 /* SceneDelegate.swift */; };
 		702AA1352FA3E992000C11F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AA1342FA3E992000C11F7 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70199FF72FA937F3005AC705 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		702AA12D2FA3E992000C11F7 /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		702AA1302FA3E992000C11F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		702AA1322FA3E992000C11F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70199FF42FA937AE005AC705 /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				70199FF62FA937DB005AC705 /* Coordinators */,
+				70199FF52FA937C6005AC705 /* Controllers */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		70199FF52FA937C6005AC705 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		70199FF62FA937DB005AC705 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				70199FF72FA937F3005AC705 /* Coordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
 		702AA1242FA3E992000C11F7 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +87,7 @@
 		702AA12F2FA3E992000C11F7 /* FoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
+				70199FF42FA937AE005AC705 /* NavigationLayer */,
 				703737A92FA51D5500FAC8CD /* Resources */,
 				702AA1302FA3E992000C11F7 /* AppDelegate.swift */,
 				702AA1322FA3E992000C11F7 /* SceneDelegate.swift */,
@@ -181,6 +208,7 @@
 				70D45F152FA699F500A489B1 /* AppColors.swift in Sources */,
 				702AA1332FA3E992000C11F7 /* SceneDelegate.swift in Sources */,
 				703737B32FA52F2F00FAC8CD /* UIColor+Extension.swift in Sources */,
+				70199FF82FA937F3005AC705 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
