@@ -3,14 +3,17 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    var coordinator: AppCoordinator?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windiwScene = (scene as? UIWindowScene) else { return }
         
         self.window = UIWindow(windowScene: windiwScene)
-        let navigationController = UINavigationController(rootViewController: ViewController())
+        let navigationController = UINavigationController()
         self.window?.rootViewController = navigationController
         self.window?.makeKeyAndVisible()
+        
+        let appCoordinator = AppCoordinator(type: .app, navigationController: navigationController)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
