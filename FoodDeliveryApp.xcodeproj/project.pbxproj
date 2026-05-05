@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70148D522FA9A6010098F7F8 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70148D512FA9A6010098F7F8 /* AppCoordinator.swift */; };
+		70148D552FA9A9900098F7F8 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70148D542FA9A9900098F7F8 /* OnboardingCoordinator.swift */; };
 		70199FF82FA937F3005AC705 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70199FF72FA937F3005AC705 /* Coordinator.swift */; };
 		702AA1312FA3E992000C11F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AA1302FA3E992000C11F7 /* AppDelegate.swift */; };
 		702AA1332FA3E992000C11F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702AA1322FA3E992000C11F7 /* SceneDelegate.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70148D512FA9A6010098F7F8 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		70148D542FA9A9900098F7F8 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
 		70199FF72FA937F3005AC705 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		702AA12D2FA3E992000C11F7 /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		702AA1302FA3E992000C11F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				70199FF72FA937F3005AC705 /* Coordinator.swift */,
+				70148D512FA9A6010098F7F8 /* AppCoordinator.swift */,
+				70148D542FA9A9900098F7F8 /* OnboardingCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -206,6 +212,8 @@
 				702AA1312FA3E992000C11F7 /* AppDelegate.swift in Sources */,
 				703737B02FA51F6800FAC8CD /* UIFont+Extension.swift in Sources */,
 				70D45F152FA699F500A489B1 /* AppColors.swift in Sources */,
+				70148D552FA9A9900098F7F8 /* OnboardingCoordinator.swift in Sources */,
+				70148D522FA9A6010098F7F8 /* AppCoordinator.swift in Sources */,
 				702AA1332FA3E992000C11F7 /* SceneDelegate.swift in Sources */,
 				703737B32FA52F2F00FAC8CD /* UIColor+Extension.swift in Sources */,
 				70199FF82FA937F3005AC705 /* Coordinator.swift in Sources */,
