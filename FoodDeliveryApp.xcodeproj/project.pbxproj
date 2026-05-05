@@ -17,6 +17,11 @@
 		703737B02FA51F6800FAC8CD /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703737AF2FA51F6800FAC8CD /* UIFont+Extension.swift */; };
 		703737B32FA52F2F00FAC8CD /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703737B22FA52F2F00FAC8CD /* UIColor+Extension.swift */; };
 		70D45F152FA699F500A489B1 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D45F142FA699F500A489B1 /* AppColors.swift */; };
+		70F563042FAA88E100FD1D3C /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F563032FAA88E100FD1D3C /* HomeCoordinator.swift */; };
+		70F563062FAA893700FD1D3C /* OrderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F563052FAA893700FD1D3C /* OrderCoordinator.swift */; };
+		70F563082FAA896200FD1D3C /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F563072FAA896200FD1D3C /* ListCoordinator.swift */; };
+		70F5630A2FAA8A3700FD1D3C /* ProfileCoordintor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F563092FAA8A3700FD1D3C /* ProfileCoordintor.swift */; };
+		70F5630C2FAA8A8000FD1D3C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F5630B2FAA8A8000FD1D3C /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +39,11 @@
 		703737B12FA51FDF00FAC8CD /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../../../RESOURCES/FoodDeliveryApp/Roboto/static/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		703737B22FA52F2F00FAC8CD /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		70D45F142FA699F500A489B1 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		70F563032FAA88E100FD1D3C /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		70F563052FAA893700FD1D3C /* OrderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCoordinator.swift; sourceTree = "<group>"; };
+		70F563072FAA896200FD1D3C /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
+		70F563092FAA8A3700FD1D3C /* ProfileCoordintor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordintor.swift; sourceTree = "<group>"; };
+		70F5630B2FAA8A8000FD1D3C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,7 @@
 		70199FF52FA937C6005AC705 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				70F5630B2FAA8A8000FD1D3C /* TabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -69,6 +80,10 @@
 				70199FF72FA937F3005AC705 /* Coordinator.swift */,
 				70148D512FA9A6010098F7F8 /* AppCoordinator.swift */,
 				70148D542FA9A9900098F7F8 /* OnboardingCoordinator.swift */,
+				70F563032FAA88E100FD1D3C /* HomeCoordinator.swift */,
+				70F563052FAA893700FD1D3C /* OrderCoordinator.swift */,
+				70F563072FAA896200FD1D3C /* ListCoordinator.swift */,
+				70F563092FAA8A3700FD1D3C /* ProfileCoordintor.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -208,13 +223,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70F563082FAA896200FD1D3C /* ListCoordinator.swift in Sources */,
+				70F5630A2FAA8A3700FD1D3C /* ProfileCoordintor.swift in Sources */,
 				702AA1352FA3E992000C11F7 /* ViewController.swift in Sources */,
 				702AA1312FA3E992000C11F7 /* AppDelegate.swift in Sources */,
 				703737B02FA51F6800FAC8CD /* UIFont+Extension.swift in Sources */,
 				70D45F152FA699F500A489B1 /* AppColors.swift in Sources */,
 				70148D552FA9A9900098F7F8 /* OnboardingCoordinator.swift in Sources */,
 				70148D522FA9A6010098F7F8 /* AppCoordinator.swift in Sources */,
+				70F563062FAA893700FD1D3C /* OrderCoordinator.swift in Sources */,
 				702AA1332FA3E992000C11F7 /* SceneDelegate.swift in Sources */,
+				70F563042FAA88E100FD1D3C /* HomeCoordinator.swift in Sources */,
+				70F5630C2FAA8A8000FD1D3C /* TabBarController.swift in Sources */,
 				703737B32FA52F2F00FAC8CD /* UIColor+Extension.swift in Sources */,
 				70199FF82FA937F3005AC705 /* Coordinator.swift in Sources */,
 			);
