@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		701195342FAFD44D009B9F70 /* OnboardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701195332FAFD44D009B9F70 /* OnboardingViewPresenter.swift */; };
 		70148D522FA9A6010098F7F8 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70148D512FA9A6010098F7F8 /* AppCoordinator.swift */; };
 		70148D552FA9A9900098F7F8 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70148D542FA9A9900098F7F8 /* OnboardingCoordinator.swift */; };
 		7017D7E72FAE81C5002F2BDC /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7017D7E62FAE81C5002F2BDC /* OnboardingViewController.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		701195332FAFD44D009B9F70 /* OnboardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPresenter.swift; sourceTree = "<group>"; };
 		70148D512FA9A6010098F7F8 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		70148D542FA9A9900098F7F8 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
 		7017D7E62FAE81C5002F2BDC /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				7017D7E62FAE81C5002F2BDC /* OnboardingViewController.swift */,
+				701195332FAFD44D009B9F70 /* OnboardingViewPresenter.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				70F5630C2FAA8A8000FD1D3C /* TabBarController.swift in Sources */,
 				703737B32FA52F2F00FAC8CD /* UIColor+Extension.swift in Sources */,
 				70199FF82FA937F3005AC705 /* Coordinator.swift in Sources */,
+				701195342FAFD44D009B9F70 /* OnboardingViewPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
